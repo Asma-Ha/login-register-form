@@ -1,7 +1,7 @@
 <html>
     <head>
         <title> registration form </title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="../styles.css" />
     </head>
     <body>
         <div class="container">
@@ -25,14 +25,14 @@
             </form>
             <div id="registration-container">
                 <p> Already registered ? 
-                    <a href='loginpage.php'> Login </a>
+                    <a href='../login/loginpage.php'> Login </a>
                 </p> 
                 
             <div>
         </div>
 
         <?php
-            require_once "register.php";
+            require_once "../register/register.php";
         ?>
 
     </body>

@@ -1,5 +1,5 @@
 <?php
-    require_once "pdo.php";
+    require_once "../pdo.php";
     if (isset($_POST['email']) && isset($_POST['password'])) {
         $sql = "SELECT * FROM info WHERE email = :email AND password = :password";
         $stmt = $pdo->prepare($sql);
