@@ -4,9 +4,6 @@
         <link rel="stylesheet" type="text/css" href="../styles.css"/>
     </head>
     <body>
-        <?php
-            $_POST = array();
-        ?>
         <div class="container">
             <h3 id="form-header"> Login </h3>
             <form action="" method="POST">

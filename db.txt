@@ -1,0 +1,15 @@
+1. create the database users using phpMyAdmin on mySQL server
+
+2. privileges
+    GRANT ALL ON users.* TO 'admin'@'localhost' IDENTIFIED BY 'admin';
+    GRANT ALL ON users.* TO 'admin'@'127.0.0.1' IDENTIFIED BY 'admin';
+
+3. create table info 
+    CREATE TABLE info (
+	user_id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(128),
+	email VARCHAR(128),
+	password VARCHAR(128),
+	INDEX(email)
+    ) engine=innodb charser=utf8;
+    
