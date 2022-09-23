@@ -5,22 +5,28 @@ body {
 input {
     border: none;
 }
+.container {
+    width : 100%;
+}
+
+.form-container {
+    background-color : #B6D0E2;
+    margin : auto;
+    width : fit-content;
+    padding : 20px;
+}
+
 #form-header {
     text-align : center;
     font-size : 30px;
-    margin : 10px;
+    margin-top: auto;
     margin-bottom : 40px;
 }
 
-.container {
-    width : 250px;
-    background-color : #B6D0E2;
-    padding : 10px 30px;
-    
-}
-#registration-container {
-    text-align : center;
-    margin-top : 4.9em;
+.text-zone {
+    padding : 6px;
+    float:right;
+    margin-left: 20px;
 }
 
 .submit-button {
@@ -32,7 +38,7 @@ input {
     font-family: 'Cairo', sans-serif;
 }
 
-.text-zone {
-    padding : 6px;
-    float:right;
+#registration-container {
+    text-align : center;
+    margin-top : 60px;
 }

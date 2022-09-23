@@ -1,3 +1,7 @@
+<?php
+    require_once "../login/login.php";
+?>
+
 <html>
     <head>
         <title> login form </title>
@@ -5,6 +9,7 @@
     </head>
     <body>
         <div class="container">
+        <div class="form-container">
             <h3 id="form-header"> Login </h3>
             <form action="" method="POST">
                 <label for="email"> Email </label>
@@ -21,15 +26,10 @@
             <div id="registration-container">
                 <p> Not registered yet ? 
                     <a href='../register/registerpage.php'> Register </a>
-                </p> 
-                
+                </p>
             <div>
         </div>
-
-        <?php
-                require_once "../login/login.php";
-        ?>
-
+        </div>
     </body>
 </html>
 
